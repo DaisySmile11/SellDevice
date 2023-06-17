@@ -35,8 +35,7 @@ jobs:
         
       - name: Install Flask
         run: pip install Flask
-      - name: run main
-        run: python main.py
+
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
       - name: Upload artifact for deployment jobs
